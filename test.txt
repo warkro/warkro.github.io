@@ -1,5 +1,12 @@
 {
   "RCADept": "Sales - Retail|Sales - D2D|Sales - Inbound Telesales|Sales - R&R|Sales - Digital|CS|OPS|IT|Product|No Failure Point|Finance|CCR",
-  "RCATab": "RCA||AdditionalOpportunities|ActionPlan|Violation|Email"
+  "RCATab": "RCA||AdditionalOpportunities|ActionPlan|Violation|Email",
+  "RCAType": {
+                "Sales": "Falsified Contract|Disputed/Falsified Verification Call|MISREPRESENTATION-Nature/Purpose|Misrepresentation-Identity/Utility Affiliation|Misrepresentation-Incorrect Plan Enrolled|Misrepresentation- wrong rate offered|Misrepresentation- Rate/Price|Misrepresentation- ETF Reimbursement process|Misrepresentation- plan savings|Misrepresentation- plan term|Unprofessional Behavior|Unprofessional Behavior- used profanity|Unprofessional Behavior-rude behavior|Unprofessional Behavior- physical altercation|Unprofessional behavior- sexual harassment|Disputed Enrollment-Duplicate Phone Used|Disptued Enrollment-Duplicate email/non customer email used|Coaching|Language Barrier|Unauthorized Signature-Minor|Unauthorized Signature- Residential|Unauthorized Signature- Commercial|Pressure Tactics|Solicitation - Restricted Area|Solicitation - Senior|Solicitation- Sign Posted|Human Error|EA Cellphone use|Vicitm of ID theft|Disputed Enrollment|Misrepresentation- Perks/Rewards|Solicitation Existing Customer|EA present during verification call|ESIID/Address Mismatch|Renewal/Retention Process Gaps|Digital Landing Page Error|Unknown- PCI DSS INFORMATION DELETION"
+  
+  },
+  "AdditionalOpportunitiesType": {
+    "Sales": "Sales Opportunity|System Error|Process Gap/Failure"
+  }
   
 }
