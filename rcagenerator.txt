@@ -116,7 +116,7 @@
 	},
 
 	"AvoidableComplaintsType": {
-	"AvoidableComplaint": "System Error|Human Error|Process Gap/Failure|Sales Opportunity"
+	"AvoidableComplaint": "System Error|Human Error|Process Gap/Failure|Sales Opportunity",
 	"UnavoidableComplaint": "Valid Fees/Charges including DNP processed/applied|Consumer wanted to expressed dissatisfaction (customer exercising right to complain)|	Customer not satisfied with product/program (Product Specific)"
 	},
 
