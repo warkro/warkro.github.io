@@ -1,6 +1,6 @@
 {
   "Version": "4.0",
-  "DEVMODE: "false",
+  "DEVMODE": "false",
   "ActionPlanFolder": {
 	"ActionPlanPath": "\\oesc.ca\JEC\JustEnergy\Mississauga\Shared\RootCauseAnalysis\Source\ActionPlans\"
   }
