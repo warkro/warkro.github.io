@@ -1,12 +1,131 @@
 {
+  "Version": "4.0",
+  "DEVMODE: "false",
+  "ActionPlanFolder": {
+	"ActionPlanPath": "\\oesc.ca\JEC\JustEnergy\Mississauga\Shared\RootCauseAnalysis\Source\ActionPlans\"
+  }
   "RCADept": "Sales - Retail|Sales - D2D|Sales - Inbound Telesales|Sales - R&R|Sales - Digital|CS|OPS|IT|Product|No Failure Point|Finance|CCR",
   "RCATab": "RCA||AdditionalOpportunities|ActionPlan|Violation|Email",
   "RCAType": {
                 "Sales": "Falsified Contract|Disputed/Falsified Verification Call|MISREPRESENTATION-Nature/Purpose|Misrepresentation-Identity/Utility Affiliation|Misrepresentation-Incorrect Plan Enrolled|Misrepresentation- wrong rate offered|Misrepresentation- Rate/Price|Misrepresentation- ETF Reimbursement process|Misrepresentation- plan savings|Misrepresentation- plan term|Unprofessional Behavior|Unprofessional Behavior- used profanity|Unprofessional Behavior-rude behavior|Unprofessional Behavior- physical altercation|Unprofessional behavior- sexual harassment|Disputed Enrollment-Duplicate Phone Used|Disptued Enrollment-Duplicate email/non customer email used|Coaching|Language Barrier|Unauthorized Signature-Minor|Unauthorized Signature- Residential|Unauthorized Signature- Commercial|Pressure Tactics|Solicitation - Restricted Area|Solicitation - Senior|Solicitation- Sign Posted|Human Error|EA Cellphone use|Vicitm of ID theft|Disputed Enrollment|Misrepresentation- Perks/Rewards|Solicitation Existing Customer|EA present during verification call|ESIID/Address Mismatch|Renewal/Retention Process Gaps|Digital Landing Page Error|Unknown- PCI DSS INFORMATION DELETION"
+				",
+				"CS": "Cancellation not processed|Renewal not processed|Exit fees not removed|Credit not applied|Clean Meter Waiver approved w/out customer consent|Incorrect Script Read|Poor Call Handling - Incorrect information provided|Poor Call Handling - Rude/Unprofessional Behavior|Human Error|Correspondence Not Sent|Payments not posted|General-Fulfillment issues/rewards/Perks|Call Back not processed|Long Hold Times|EMC Delay in email response|Incorrect transaction submitted MVI vs Switch|JEI - Email Delays|JEI - Email Etiquette|Unknown- PCI DSS INFORMATION DELETION",
+
+				"OPS" : "Incorrect rates/billing|Account Activated with a Denied TPV|Account Activated w/out TPV|Welcome Email/Mail not sent|Welcome Email/Mail sent incomplete|Human Error|Cancellation Not Processed|Consumption/Meter Read Dispute Error|Correspondence Not Sent|Customer Not Contacted|Program not appearing on bill|Service not activated|Payment(s) not posted|Account activated w/out signed contract|Payment Arrangment Policy Issues|Perks points inquiries (initial/payment points)|Perks Program inquiries|Collections - Poor Call Handling|Collections - Break in Process|Collections - Human Error|Collections - Excessive Calls|TPV Script Error|Unknown- PCI DSS INFORMATION DELETION|",
+
+				"IT" : "JEM - contract submitted without signature|JEM - Incorrect Utility options|JEM - transmission Errors - Blank contract submitted|JEM - Incorrect ESIID populated|Human Error|Incorrect correspondence sent by the system|Rebranding letter Caused confusion|CRM-Bills not generated|Web Issues: Auto Pay Removal Error|Web Issues: Can't Access Account|Web Issues: Can't Update Info|Web Issues: PDF files won't open|Web Issues: Technical Issues|OPS System Error (CRM pushed account through w/out TPV|CS Telephony System Error|System Migration Error|System Renewal error|Perks System Error|Telephony CS Call Drops|IVR Error|L&D Training Environment Issues|System Error|Unknown- PCI DSS INFORMATION DELETION|Account Activated w/out TPV",
+
+				"Product" : "Customer not satisfied with product/program|Product Preference Changed|Rate/Price|Renewal|Term|Value Added Products (VAP) shipment delivery issues|Value Added Products (VAP) Appointment issues|Other|Unknown- PCI DSS INFORMATION DELETION",
+
+				"No Failure Point" : "Exercising  right to file complaint|Dissatisfaction w/ fees-DNP,Late,ETF|Buyers Remorse",
+
+				"Finance" : "Delay in chque issuance|No funds in account for withdrawal",
+
+				"CCR" : "Human Error"
   
   },
-  "AdditionalOpportunitiesType": {
-    "Sales": "Sales Opportunity|System Error|Process Gap/Failure"
-  }
+  "RCADropVal" : {
+		"Sales" : "RootCauseAnalysisSales",
+		"CS": "RootCauseAnalysisCS",
+		"OPS": "RootCauseAnalysisOps",
+		"IT": "RootCauseAnalysisIT",
+		"Product": "RootCauseAnalysisProduct",
+		"No Failure Point": "RootCauseAnalysisNoFailPoint",
+		"Finance": "RootCauseAnalysisFinance",
+		"CCR": "RootCauseAnalysisCCR",
+		"Collections": "RootCauseAnalysisOps"
+  },
+  "ViolationUser":"sadas|dgibbs|kpaez|rbolivar",
+  "ViolationDept]":"Sales - Retail|Sales - D2D|Sales - Inbound Telesales|Sales - R&R|Sales - Digital|CS|Ops|IT|Product|Finance|CCR",
+  "ViolationDropVal": {
+		"Sales": "CreateLegalAlert",
+		"CS": "CreateLegalAlert",
+		"OPS": "CreateLegalAlert",
+		"IT": "CreateLegalAlert",
+		"Product": "CreateLegalAlert",
+		"No Failure Point": "CreateLegalAlert",
+		"Finance": "CreateLegalAlert",
+		"CCR": "CreateLegalAlert",
+		"Collections": "CreateLegalAlert"
+	},
+	
+  "ViolationType": {
+
+		Sales": "Inconsistent Selection of REP - Invalid Signature|Inconsistent Selection of REP - Invalid Email Address|Inconsistent Selection of REP - Slamming|Authorized Billing Charges - Just Green/Ecobee|Incorrect Switch/MVI Selection|Disconnection of Service - Disconnection for any reason under Sales for violations|Incorrect Disclosures",
+		Other": "Authorized Billing Charges - Just Green/Ecobee|Customer Access / Accessibility - Telephone - Excessive hold/wait times|Customer Access / Accessibility - Telephone - Unable to speak with live agent|Customer Access / Accessibility - Email - Unanswered email|Inconsistent Billing - Inconsistent Billing|Bill Payment and Adjustments - Failure to offer DPP|Bill Payment and Adjustments - Failure to honor PA/DPP after agreed upon|Failure to honor PA/DPP after agreed upon - Failure to issue MT within rescission period|Disconnection of Service - Disconnection with active PA/DPP|Disconnection of Service - Disconnection with open PUC complaint|Disconnection of Service - Disconnection in error for any reason|Invalid MT - Incorrect MT submission|General Disclosure Requirements - Discrepancies with EFL/TOS/Docs|General Disclosure Requirements - Correspondence Not Sent|Telephony Retention Failure|Failure to respond"
+	
+	},
+	"EmailDept": "Sales - Retail|Sales - D2D|Sales - Inbound Telesales/R&R|CS|Hudson - CS|Collections|Commercial Billing|Ops - South|Ops - North Enrollments |Ops - Billing/Payments - AB|Ops - Billing/Payments - Other North|IT - System Issues|IT - JEM|IT - Telephony|IT - DEV South|Product|Finance|CCR",
+	
+	"EmailDistribution": {
+		"Sales - Retail": "anguyen@justenergy.com; johrivera@justenergy.com; oqureishi@justenergy.com; MFerral@justenergy.com;",
+		
+		"Sales - D2D": "DIST_D2D_3PV@justenergy.com;",
+		
+		"CS": "ARDas@justenergy.com; ldowdy@justenergy.com; kmayes@justenergy.com; OBhawal@justenergy.com; Ammartinez@justenergy.com; csuarez@justenergy.com;",
+		
+		"Sales - Inbound Telesales/R&R": "please create Salesforce RCA task",
+		
+		"Hudson - CS": "amanda.bailey@hudsonenergy.net; Geetika.Sharma@hudsonenergy.net; Sherry.Grosse@hudsonenergy.net;",
+		
+		"Commercial Billing": "Stephanie.Hernandez@hudsonenergy.net;",
+		
+		"Collections": "sholland@justenergy.com; gisellitto@justenergy.com; Dist_Collections@justenergy.com",
+		
+		"Ops - North": "Dist_Ops_LetterManagement@justenergy.com;",
+		
+		"Ops - South": "LFoster@justenergy.com; LLee@justenergy.com; DIST_SW_OpsMgnt@justenergy.com",
+		
+		"Ops - North Enrollments": "Dist_Ops_ContractAdmin@justenergy.com;",
+		
+		"Ops - Billing/Payments - AB": "Dist_AB_BS_Team@justenergy.com;",
+		
+		"Ops - Billing/Payments - Other North": "Dist_Ops_RevenueAssurance@justenergy.com;",
+		
+		
+		"IT - System Issues": "lplucas@justenergy.com; ocristea@justenergy.com; kchu@justenergy.com",
+		"IT - JEM": "JEMobile@justenergy.com",
+		"IT - Telephony": "DIST_IT_Telephony@justenergy.com",
+		"IT - DEV South": "acantu@justenergy.com",
+		"Product" :"",
+		"Finance": "",
+		
+		"CCR": "kpaez@justenergy.com; ewestby@justenergy.com;"
+	},
+	"EmailType": "RCA|AdditionalOpportunities",
+
+	  "AdditionalOpportunitiesType": {
+		"Sales": "Sales Opportunity|System Error|Process Gap/Failure",
+		"CS": "System Error|Human Error|Process Gap/Failure",
+		"Ops": "System Error|Human Error|Process Gap/Failure",
+		"Collections": "System Error|Human Error|Process Gap/Failure",
+		"IT": "System Error|Human Error|Process Gap/Failure",
+		"Product": "System Error|Human Error|Process Gap/Failure",
+		"Finance": "System Error|Human Error|Process Gap/Failure",
+		"CCR": "System Error|Human Error|Process Gap/Failure"
+	  },
   
+	"ActionPlanType": {
+	"Sales": "System issues|Process Improvement|Training Opportunities",
+	"CS": "System issues|Process Improvement|Training Opportunities",
+	"Ops": "System issues|Process Improvement|Training Opportunities",
+	"Collections": "System issues|Process Improvement|Training Opportunities",
+	"IT": "System issues|Process Improvement|Training Opportunities",
+	"Product": "System issues|Process Improvement|Training Opportunities",
+	"Finance": "System issues|Process Improvement|Training Opportunities",
+	"CCR": "System issues|Process Improvement|Training Opportunities"
+	},
+
+	"AvoidableComplaintsType": {
+	"AvoidableComplaint": "System Error|Human Error|Process Gap/Failure|Sales Opportunity"
+	"UnavoidableComplaint": "Valid Fees/Charges including DNP processed/applied|Consumer wanted to expressed dissatisfaction (customer exercising right to complain)|	Customer not satisfied with product/program (Product Specific)"
+	},
+
+	"CopyActionTypeSelection": {
+	"RCA": "Copy To Clipboard||RCA|Avoidable/Unavoidable",
+	"AdditionalOpportunities": "Copy To Clipboard||AdditionalOpportunities",
+	"Violation": "Copy To Clipboard||Violation",
+	"Email": "Copy To Clipboard||Recipients|Email Subject|Email Body",
+	"ActionPlan": " Copy To Clipboard||ActionPlan"
+	}
 }
