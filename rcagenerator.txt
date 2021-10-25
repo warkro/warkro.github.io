@@ -3,7 +3,7 @@
   "DEVMODE": "false",
   "ActionPlanFolder": {
 	"ActionPlanPath": "\\\\oesc.ca\\JEC\\JustEnergy\\Mississauga\\Shared\\RootCauseAnalysis\\Source\\ActionPlans\\"
-  }
+  },
   "RCADept": "Sales - Retail|Sales - D2D|Sales - Inbound Telesales|Sales - R&R|Sales - Digital|CS|OPS|IT|Product|No Failure Point|Finance|CCR",
   "RCATab": "RCA||AdditionalOpportunities|ActionPlan|Violation|Email",
   "RCAType": {
