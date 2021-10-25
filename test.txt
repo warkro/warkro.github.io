@@ -1,1 +1,5 @@
-test
+{
+  RCADept: "Sales - Retail|Sales - D2D|Sales - Inbound Telesales|Sales - R&R|Sales - Digital|CS|OPS|IT|Product|No Failure Point|Finance|CCR",
+  RCATab: "RCA||AdditionalOpportunities|ActionPlan|Violation|Email"
+  
+}
